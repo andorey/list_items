@@ -1,0 +1,1 @@
+import React from 'react';const SearchPanel = () => {	return <input		placeholder="search"		autoComplete=""	/>};export default SearchPanel;
