@@ -1,1 +1,1 @@
-import React from 'react';const AppHeader = () => {	return <h2>My Todo list</h2>};export default AppHeader;
+import React from 'react';import "./app-header.css";const AppHeader = ({toDo, done}) => {	return (		<div className="app-header">			<h2>Todo list</h2>			<h3>{toDo} more to do, {done} done</h3>		</div>	)};export default AppHeader;
