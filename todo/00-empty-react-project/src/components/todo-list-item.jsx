@@ -1,1 +1,1 @@
-import React from 'react';const TodoListItem = () => {	return (		<span>			<li>Welcome in React</li>			<li>We have logic expression</li>			<li>Do you know is this good</li>		</span>	)};export default TodoListItem;
+import React from 'react';const TodoListItem = ({label, important}) => {	const spanStyle = {		color: important ? 'tomato' : 'black'	};	return <span style={spanStyle}>{label}</span>};export default TodoListItem;
